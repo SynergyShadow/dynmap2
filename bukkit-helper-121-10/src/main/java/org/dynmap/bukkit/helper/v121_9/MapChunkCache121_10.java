@@ -1,4 +1,4 @@
-package org.dynmap.bukkit.helper.v121_9;
+package org.dynmap.bukkit.helper.v121_10;
 
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.level.ChunkCoordIntPair;
@@ -27,12 +27,12 @@ import java.util.function.Supplier;
 /**
  * Container for managing chunks - dependent upon using chunk snapshots, since rendering is off server thread
  */
-public class MapChunkCache121_9 extends GenericMapChunkCache {
+public class MapChunkCache121_10 extends GenericMapChunkCache {
 	private World w;
 	/**
 	 * Construct empty cache
 	 */
-	public MapChunkCache121_9(GenericChunkCache cc) {
+	public MapChunkCache121_10(GenericChunkCache cc) {
 		super(cc);
 	}
 
